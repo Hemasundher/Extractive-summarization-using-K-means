@@ -10,5 +10,6 @@ To extract specific sentences from the original text, the clustering (K-means) t
 * The sentence vectors are of shape (768,), making them high-dimensional.
 * Utilize the UMAP algorithm to reduce the dimensionality.
 * Apply k-means clustering to the dimension-reduced vectors.
-* Experiment with different values of k and assess them using silhouette scores.
+* Experiment with different values of k within a range(5-10) and assess them using silhouette scores.
+* Cluster centers are not the data points themselves, so the point closest to each cluster center is selected as the representative point for that cluster.
 * Once the optimal k value and k-means model are obtained, select one sentence from each cluster to represent that cluster.

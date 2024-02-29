@@ -3,6 +3,7 @@ Selecting key phrases from the entire text is referred to as extractive summariz
 
 To extract specific sentences from the original text, the clustering (K-means) technique is employed.
 
+![image](https://github.com/Hemasundher/Extractive-summarization-using-K-means/assets/89529752/5963a5ad-6b72-4e0a-881c-e1ea9f7e8ced)
 
 * Split the text into sentences using the Spacy module.
 * Generate a sentence vector for each sentence using the SBERT model.
